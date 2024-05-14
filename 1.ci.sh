@@ -14,9 +14,9 @@ ruby -v
 export OSS=true
 export LOGSTASH_SOURCE=1
 export LOGSTASH_PATH=~/logstash
-# ./gradlew installDevelopmentGems
-# ./gradlew installDefaultGems
-# ./gradlew build
+./gradlew installDevelopmentGems -DskipTests=true
+./gradlew installDefaultGems
+./gradlew build
 
 
 
