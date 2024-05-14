@@ -7,7 +7,7 @@ cd $CMD_PATH
 
 echo "hello world"
 cd ~
-git clone -b dev_240514_01 --depth 1 git@github.com:es366/10007-logstash.git logstash
+git clone -b dev_240514_01 --depth 1 https://github.com/es366/10007-logstash.git logstash
 ls -al
 cd logstash
 ls -al
