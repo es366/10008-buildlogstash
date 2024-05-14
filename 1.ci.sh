@@ -10,13 +10,13 @@ cd ~
 git clone -b dev_240514_10 --depth 1 https://github.com/es366/10007-logstash.git logstash
 cd logstash
 ls -al
-
+ruby -v
 export OSS=true
 export LOGSTASH_SOURCE=1
 export LOGSTASH_PATH=~/logstash
-./gradlew installDevelopmentGems
-./gradlew installDefaultGems
-./gradlew build
+# ./gradlew installDevelopmentGems
+# ./gradlew installDefaultGems
+# ./gradlew build
 
 
 
