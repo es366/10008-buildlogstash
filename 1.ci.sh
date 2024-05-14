@@ -8,7 +8,6 @@ cd $CMD_PATH
 echo "hello world"
 cd ~
 git clone -b dev_240514_10 --depth 1 https://github.com/es366/10007-logstash.git logstash
-ls -al
 cd logstash
 ls -al
 # ./gradlew localDistro
