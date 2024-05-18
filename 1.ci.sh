@@ -18,6 +18,8 @@ export LOGSTASH_PATH=~/logstash
 ./gradlew installDefaultGems
 ./gradlew build
 
+ls -al
+
 
 
 
